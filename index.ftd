@@ -28,7 +28,7 @@ cta: #want-to-learn-more
 -- ds.link-group: Used by?
 cta: #used-by
 
--- end: page.right-sidebar
+-- end: ds.page.right-sidebar
 
 -- ds.page.footer:
 
