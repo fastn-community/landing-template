@@ -3,7 +3,7 @@
 -- fastn.package: <user_name>.github.io/<repo_name>
 favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
 
--- fastn.dependency: fastn-community.github.io/midnight-storm as doc-site
+-- fastn.dependency: fastn-community.github.io/midnight-rush as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 
