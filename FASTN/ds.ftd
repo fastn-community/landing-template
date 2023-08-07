@@ -1,8 +1,8 @@
 -- import: fastn
 -- import: fastn-community.github.io/footer
 -- import: fastn-community.github.io/roboto-typography as typo
--- import: landing/common
--- import: landing
+-- import: doc-site/common
+-- import: doc-site
 export: author-bio,code,compact-text,featured-post,h0,h1,h2,h3,iframe,image,image-first,image-in-between,link,link-group,markdown,not-found-1,not-found-2,output,post,posts,rendered,tip,without-image,youtube, footer,letter, letter-data, letter-bar, letter-category, letter-stack,post-card,toc-title
 
 -- ftd.image-src fastn-logo:
@@ -35,7 +35,7 @@ boolean show-banner: false
 ftd.ui list banner:
 ftd.ui list hero:
 
--- landing.page: $page.title
+-- doc-site.page: $page.title
 site-logo: $page.site-logo
 body: $page.body
 show-footer: true
@@ -52,9 +52,9 @@ show-banner: $page.show-banner
 banner: $page.banner
 hero: $page.hero
 
--- landing.page.footer:
+-- doc-site.page.footer:
 
--- landing.footer:
+-- doc-site.footer:
 site-logo: $common.site-logo
 site-url: $common.site-url
 logo-width: $common.logo-width
@@ -62,7 +62,7 @@ logo-height: $common.logo-height
 footer-links: $common.footer-links
 social-links: $common.social-links
 
--- end: landing.page.footer
+-- end: doc-site.page.footer
 
 -- ftd.column:
 spacing.fixed.em: 0.8
@@ -71,6 +71,6 @@ children: $page.wrapper
 
 -- end: ftd.column
 
--- end: landing.page
+-- end: doc-site.page
 
 -- end: page

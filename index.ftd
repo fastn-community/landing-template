@@ -2,9 +2,6 @@
 document-title: fastn midnight-storm Template. Build Your Own Website with Ease
 document-description: Simple, easy-to-use midnight-storm template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
 document-image: https://fastn-community.github.io/midnight-storm/-/fastn-community.github.io/midnight-storm/static/midnight-storm-og-image.jpg
-site-logo: $common.site-logo
-github-url: https://github.com/fastn-community/midnight-storm/
-github-icon: true
 sidebar: true
 
 -- ds.page.body:
@@ -31,16 +28,6 @@ cta: #used-by
 -- end: ds.page.right-sidebar
 
 -- ds.page.footer:
-
--- ds.footer:
-site-logo: $common.site-logo
-site-url: $common.site-url
-logo-width: $common.logo-width
-logo-height: $common.logo-height
-footer-links: $common.footer-links
-social-links: $common.social-links
-
--- end: ds.page.footer
 
 -- ds.h3: 🚀 Fast Track 
 id: fast-track
