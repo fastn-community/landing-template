@@ -35,7 +35,7 @@ boolean show-banner: false
 ftd.ui list banner:
 ftd.ui list hero:
 
--- midnight-storm.page: $page.title
+-- landing.page: $page.title
 site-logo: $page.site-logo
 body: $page.body
 show-footer: true
@@ -52,9 +52,9 @@ show-banner: $page.show-banner
 banner: $page.banner
 hero: $page.hero
 
--- midnight-storm.page.footer:
+-- landing.page.footer:
 
--- midnight-storm.footer:
+-- landing.footer:
 site-logo: $common.site-logo
 site-url: $common.site-url
 logo-width: $common.logo-width
@@ -62,7 +62,7 @@ logo-height: $common.logo-height
 footer-links: $common.footer-links
 social-links: $common.social-links
 
--- end: midnight-storm.page.footer
+-- end: landing.page.footer
 
 -- ftd.column:
 spacing.fixed.em: 0.8
@@ -71,6 +71,6 @@ children: $page.wrapper
 
 -- end: ftd.column
 
--- end: midnight-storm.page
+-- end: landing.page
 
 -- end: page
