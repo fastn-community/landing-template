@@ -1,18 +1,17 @@
 -- import: fastn
 
--- fastn.package: fastn-community.github.io/landing-template
-favicon: /-/fastn-community.github.io/landing-template/favicon.ico
+-- fastn.package: <user_name>.github.io/<repo_name>
+favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
+-- fastn.dependency: fastn-community.github.io/midnight-storm as landing
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: fastn-community.github.io/landing-template/FASTN/ds
--- fastn.auto-import: fastn-community.github.io/landing-template/assets
+-- fastn.auto-import: <user_name>.github.io/<repo_name>/FASTN/ds
+-- fastn.auto-import: <user_name>.github.io/<repo_name>/assets
 -- fastn.auto-import: doc-site
 
 -- fastn.sitemap:
 
 # Home: index.html
 
-- Right Sidebar Sample: /sidebar/
